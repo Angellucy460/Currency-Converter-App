@@ -97,11 +97,15 @@ button#convert:hover {
 }
 
 #result {
-    margin-top: 1rem;
+    margin-top: 5rem;
     color: red;
-    font-size: 1.1rem;
+    font-size: 1.9rem;
     text-align: center;
-    min-height: 1.8em;
+    min-height: 1.9em;
+    display: block;
+    margin-top: 1.5rem;
+    font-weight: bold;
+    text-align: center;
 }
 
 
@@ -114,15 +118,15 @@ body, h1, p, label, select, input, button {
 }
 
 body {
-    background: #f4f7fa;
-    min-height: 100vh;
+    background: lightblue;
+    min-height: 150vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .Converter {
-    background: #fff;
+    background: black;
     padding: 2rem 2.5rem;
     border-radius: 12px;
     box-shadow: 0 4px 24px rgba(0,0,0,0.08);
@@ -131,14 +135,14 @@ body {
 }
 
 .Converter h1 {
-    color: #2d3a4b;
+    color: white;
     margin-bottom: 0.5rem;
     font-size: 2rem;
     text-align: center;
 }
 
 .Converter p {
-    color: #5a6a7a;
+    color: whitesmoke;
     margin-bottom: 1rem;
     text-align: center;
     font-size: 1rem;
@@ -152,13 +156,13 @@ form {
 
 label {
     font-weight: 600;
-    color: #2d3a4b;
+    color: whitesmoke;
     margin-bottom: 0.25rem;
 }
 
 input[type="number"] {
     padding: 0.5rem;
-    border: 1px solid #cfd8dc;
+    border: 1px solid grey;
     border-radius: 6px;
     font-size: 1rem;
     outline: none;
@@ -166,7 +170,7 @@ input[type="number"] {
 }
 
 input[type="number"]:focus {
-    border: 1.5px solid #1976d2;
+    border: 1.5px solid blue;
 }
 
 select {
@@ -185,8 +189,8 @@ select:focus {
 
 button#convert {
     padding: 0.9rem;
-    background: #1976d2;
-    color: #fff;
+    background: blue;
+    color: white;
     border: none;
     border-radius: 6px;
     font-size: 1.1rem;
@@ -196,7 +200,7 @@ button#convert {
 }
 
 button#convert:hover {
-    background: #125ea7;
+    background: red;
 }
 
 #result {
@@ -213,7 +217,7 @@ button#convert:hover {
     height: 24px;
     display: inline-block;
     background-size: cover;
-    border: 1px solid #ddd;
+    border: 1px solid white;
     border-radius: 4px;
-    background-color: #eee;
+    background-color: whitesmoke;
 }
