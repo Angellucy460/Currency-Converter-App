@@ -1,9 +1,0 @@
-{
-  "currencies": [
-    { "id":"1", "code": "USD", "name": "US Dollar", "rate": 1 },
-    { "id":"2", "code": "EUR", "name": "Euro", "rate": 0.92 },
-    { "id":"3", "code": "GBP", "name": "British Pound", "rate": 0.78 },
-    { "id":"4", "code": "KES", "name": "Kenyan Shilling", "rate": 127.5 },
-    { "id":"5", "code": "INR", "name": "Indian Rupee", "rate": 83.4 }
-  ]
-}
