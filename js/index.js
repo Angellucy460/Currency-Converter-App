@@ -4,6 +4,23 @@ const toSelect = document.getElementById('to');
 const resultElement = document.getElementById('result');
 const form = document.querySelector('form');
 
+
+function sortSelectOptions(selectId) {
+    const select = document.getElementById(selectId);
+    // Convert options to array, skip the first if it's a placeholder
+    const options = Array.from(select.options);
+    options.sort((a, b) => a.text.localeCompare(b.text));
+    // Remove all options
+    select.innerHTML = '';
+    // Add sorted options back
+    options.forEach(option => select.add(option));
+}
+
+// Call for both selects
+sortSelectOptions('from');
+sortSelectOptions('to');
+
+
 // Map currency code to country code for flag-icons
 const currencyToCountry = {
     USD: "us", EUR: "eu", GBP: "gb", JPY: "jp", AUD: "au", CAD: "ca", CHF: "ch", CNY: "cn", INR: "in", RUB: "ru",
@@ -29,8 +46,11 @@ function updateFlag(selectId, flagId) {
 }
 
 // Initial flag update on page load
+fromSelect.addEventListener("change", () => updateFlag("from", "from-flag"));
+toSelect.addEventListener("change", () => updateFlag("to", "to-flag"));
 updateFlag("from", "from-flag");
 updateFlag("to", "to-flag");
+
 
 // Update flag when selection changes
 fromSelect.addEventListener("change", () => updateFlag("from", "from-flag"));

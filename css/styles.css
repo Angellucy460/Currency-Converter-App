@@ -175,10 +175,10 @@ input[type="number"]:focus {
 
 select {
     padding: 0.5rem;
-    border: 1px solid #cfd8dc;
+    border: 1px solid grey;
     border-radius: 6px;
     font-size: 1rem;
-    background: #f9fafb;
+    background: grey;
     outline: none;
     transition: border 0.2s;
 }
