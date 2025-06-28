@@ -180,6 +180,7 @@ select {
     background: grey;
     outline: none;
     transition: border 0.2s;
+    cursor: pointer;
 }
 
 select:focus {
