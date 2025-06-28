@@ -161,7 +161,7 @@ label {
 
 input[type="number"] {
     padding: 0.5rem;
-    border: 1px solid grey;
+    border: 1px solid black;
     border-radius: 6px;
     font-size: 1rem;
     outline: none;
