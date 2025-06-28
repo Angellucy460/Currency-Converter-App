@@ -177,7 +177,7 @@ select {
     border: 1px solid grey;
     border-radius: 6px;
     font-size: 1rem;
-    background: grey;
+    background: white;
     outline: none;
     transition: border 0.2s;
     cursor: pointer;
