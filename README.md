@@ -1,4 +1,4 @@
-# 🪙 CURRENCY CONVERTER
+# 🪙 CURRENCY CONVERTER APP
 
 *A currency converter is a digital tool or application that allows users to convert the value of one currency into another using up-to-date exchange rates.*
 
