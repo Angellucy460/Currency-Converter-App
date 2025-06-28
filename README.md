@@ -32,7 +32,7 @@ This tool addresses several common challenges:
 
 ### 🚀 Getting Started
 
-To use the Currency Converter;
+To use the Currency Converter:
 
 1. **Clone the repository**
    ```bash
